@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-color: red;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.invisible {
+    display: none;
+}
+
+
+.droite {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon-infos {
+    text-align: center;
+}
+
+.pokemon-card {
+    display: flex;
+    justify-content: space-between;
+    width: 30em;
+
+    margin: 1em;
+    background-color: black;
+    color: white;
+
+    cursor: pointer;
+    
+}
+
+.pokemon-card img {
+    height: 7em;
+    width: 7em;
+}
+
+.pokemon-card-text {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.pokemon-card-img {
+    margin-right: 1em;
+}
